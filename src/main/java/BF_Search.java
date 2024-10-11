@@ -2,7 +2,6 @@ import java.util.Queue;
 
 public class BF_Search implements SearchStrategy {
 
-
     @Override
     public void addElement(Object element) {
 

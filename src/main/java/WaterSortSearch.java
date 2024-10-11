@@ -3,12 +3,13 @@ import java.util.Queue;
 public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     SearchTreeNode node;
     String initialState;
-    String strategy;
+    SearchStrategy searchStrategy;
     boolean visualize;
 
     public WaterSortSearch(String initialState,String strategy, boolean visualize){
         this.initialState = initialState;
-        this.strategy = strategy;
+        if(strategy.equals("BF"))
+            this.searchStrategy = new BF_Search();
         this.visualize = visualize;
     }
 

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modified interface name">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728652038832</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class">
+      <created>1728653118148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728653118148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +124,7 @@
     <MESSAGE value="Add General_Search Functions" />
     <MESSAGE value="Change name of QingFunction to SearchStrategy" />
     <MESSAGE value="Modified interface name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified interface name" />
+    <MESSAGE value="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class" />
   </component>
 </project>
