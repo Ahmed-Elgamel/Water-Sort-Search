@@ -5,6 +5,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     SearchStrategy searchStrategy;
     boolean visualize;
 
+    // set the instance varibles of this class as well as create the appropriate search strategy
     public WaterSortSearch(String initialState,String strategy, boolean visualize){
         this.initialState = initialState;
         if(strategy.equals("BF"))
@@ -12,8 +13,12 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         this.visualize = visualize;
     }
 
+    public void runSearchAlgorithm(){
+        GenericSearch.General_Search(this, searchStrategy);
+    }
     public static String solve(String initialState,String strategy, boolean visualize){
         WaterSortSearch waterSortSearch = new WaterSortSearch(initialState, strategy, visualize);
+        waterSortSearch.runSearchAlgorithm();
         return null;
 
     }

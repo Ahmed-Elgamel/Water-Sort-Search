@@ -4,7 +4,7 @@ import java.util.Queue;
 public abstract class GenericSearch {
 
 
-    public Answer General_Search(Problem problem, SearchStrategy searchStrategy){
+    public static Answer General_Search(Problem problem, SearchStrategy searchStrategy){
         // initialize the root node
         State initialState = problem.initState();
         Queue<SearchTreeNode> nodes = new LinkedList<>();
@@ -22,10 +22,5 @@ public abstract class GenericSearch {
 
     }
 
-    public Answer BF_Search(Problem problem){
-        SearchStrategy searchStrategy = new BF_Search();
-        return General_Search(problem, searchStrategy);
-
-    }
 
 }
