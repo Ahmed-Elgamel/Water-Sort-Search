@@ -1,6 +1,6 @@
 import java.util.Queue;
 
-public class BF_search implements Searchstrategy {
+public class BF_Search implements SearchStrategy {
 
 
     @Override

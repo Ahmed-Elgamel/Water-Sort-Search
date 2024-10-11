@@ -1,7 +1,8 @@
-import java.util.ArrayList;
 import java.util.Queue;
 
 public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
+    SearchTreeNode node;
+    SearchStrategy searchStrategy;
 
     @Override
     public boolean goalTest(SearchTreeNode node) {
@@ -21,6 +22,16 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
     public static String solve(String initialState,String strategy, boolean visualize){
         return "";
+
+    }
+
+    public static State initializeState(String initialState){
+        return null;
+
+    }
+
+    public static SearchStrategy initializeSearchStrategy(String strategy){
+        return null;
 
     }
 }

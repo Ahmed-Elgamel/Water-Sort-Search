@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add General_Search Functions">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Change name of QingFunction to SearchStrategy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BF_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QingFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QingFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BF_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728649683666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change name of QingFunction to SearchStrategy">
+      <created>1728651323808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728651323808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +110,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Initial structure commit" />
     <MESSAGE value="Add General_Search Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add General_Search Functions" />
+    <MESSAGE value="Change name of QingFunction to SearchStrategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name of QingFunction to SearchStrategy" />
   </component>
 </project>
