@@ -53,7 +53,6 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
 
        State state = new State(bottles);
-        System.out.println("yoooo "+state);
         return state;
     }
 
