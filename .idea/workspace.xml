@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add structure of returning the answer">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add printing of answer logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Layer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728659385268</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add printing of answer logic">
+      <created>1728660613758</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728660613758</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +225,7 @@
     <MESSAGE value="Add functionality to the BF_Search search strategy" />
     <MESSAGE value="Modify GenericSearch to return SerachTreeNode" />
     <MESSAGE value="Add structure of returning the answer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add structure of returning the answer" />
+    <MESSAGE value="Add printing of answer logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add printing of answer logic" />
   </component>
 </project>

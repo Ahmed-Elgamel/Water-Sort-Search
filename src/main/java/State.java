@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.TreeSet;
 
 public class State {
@@ -9,7 +10,7 @@ public class State {
 
 
     public State(Bottle[] bottles){
-        bottles = bottles;
+        this.bottles = bottles;
 
     }
 
@@ -30,5 +31,9 @@ public class State {
 
     public Bottle[] getBottles() {
         return bottles;
+    }
+
+    public String toString(){
+        return Arrays.deepToString(bottles);
     }
 }

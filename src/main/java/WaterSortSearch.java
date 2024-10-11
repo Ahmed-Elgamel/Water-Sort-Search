@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -40,9 +41,20 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
     @Override
     public State initState() {
-        //todo take the initialState string and create a state out of it
+        // take the initialState string and create a state out of it
+        String []s = initialState.split(";");
+        int numberOfBottles = Integer.parseInt(s[0]);
 
-        return null;
+        Bottle [] bottles = new Bottle[numberOfBottles];
+        for(int i=2;i<numberOfBottles+2;i++){
+            String []layers = s[i].split(","); // this string contains the layers (Red, Green, Empty...) of the bottle i
+            bottles[i-2] = new Bottle(layers);
+        }
+
+
+       State state = new State(bottles);
+        System.out.println("yoooo "+state);
+        return state;
     }
 
     @Override

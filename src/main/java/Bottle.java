@@ -1,11 +1,25 @@
+import java.util.Arrays;
+
 public class Bottle {
-    Color [] colors;
+    Layer[] layers;
     Integer filledIndex=-1;
     Integer bottleCapacity;
 
-    public Bottle(Color[] colors){
-        colors = colors;
+    public Bottle(String [] colors){
         bottleCapacity = colors.length;
+        layers = new Layer[bottleCapacity];
+
+        for(int i=0 ; i<bottleCapacity ; i++){
+            switch(colors[i]) {
+                case "r": this.layers[i] = Layer.Red; break;
+                case "g": this.layers[i] = Layer.Green; break;
+                case "b": this.layers[i] = Layer.Blue; break;
+                case "y": this.layers[i] = Layer.Yellow; break;
+                case "o": this.layers[i] = Layer.Orange; break;
+                default: this.layers[i] = Layer.Empty;
+
+            }
+        }
 
     }
 
@@ -16,23 +30,23 @@ public class Bottle {
             return true;
         }
 
-        Color color = bottleRemoveFrom.colors[bottleRemoveFrom.filledIndex];
-        if(colors[filledIndex] == color  && filledIndex + 1 < bottleCapacity){
+        Layer layer = bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex];
+        if(layers[filledIndex] == layer && filledIndex + 1 < bottleCapacity){
             return true;
         }
         return false;
     }
 
     public void addColor(Bottle bottleRemoveFrom){
-        Color color = bottleRemoveFrom.colors[bottleRemoveFrom.filledIndex--];
+        Layer layer = bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex--];
 
         if (filledIndex==-1){
-            colors[++filledIndex] = color;
+            layers[++filledIndex] = layer;
             return;
         }
 
-        if(colors[filledIndex] == color){
-            colors[++filledIndex] = color;
+        if(layers[filledIndex] == layer){
+            layers[++filledIndex] = layer;
             return;
         }
     }
@@ -41,7 +55,7 @@ public class Bottle {
         boolean ans= true;
 
         for(int layer =filledIndex-1; layer>-1; layer--){
-            ans&= colors[layer] == colors[layer+1];
+            ans&= layers[layer] == layers[layer+1];
         }
         return ans;
     }
@@ -52,6 +66,15 @@ public class Bottle {
 
     public void setFilledIndex(Integer filledIndex) {
         this.filledIndex = filledIndex;
+    }
+
+
+    public String toString(){
+        StringBuilder sb =new StringBuilder();
+        for(int i=0;i<bottleCapacity;i++)
+            sb.append(layers[i]+" ");
+
+        return sb.toString();
     }
 
 
