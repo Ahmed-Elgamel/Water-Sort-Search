@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -72,7 +73,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
             for(int j=0 ; j<bottles.length ; j++){
                 Bottle bottle1 = bottles[j];
                 if(i!=j){ // make sure we are not pouring in the same bottle
-                    Operator operator = new Operator(bottle1, bottle2);
+                    Operator operator = new Operator(bottle1, bottle2, j , i);
                     if(operator.canApplyOperator()){
                         // i can pour from bottle2 to bottle1
                         // So a new node with the new state must be added to the expanded nodes

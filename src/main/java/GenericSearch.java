@@ -9,17 +9,16 @@ public abstract class GenericSearch {
         // initialize the root node
         State initialState = problem.initState();
         Deque<SearchTreeNode> nodes = new LinkedList<>();
-        System.out.println(initialState);
         nodes.add(new SearchTreeNode(initialState));
 
         while (nodes.size()!=0){
             SearchTreeNode node = searchStrategy.getElement(nodes); // get a node
-            System.out.println(node);
             boolean foundAnswer = problem.goalTest(node); // checks if node pass the goal test function
             if(foundAnswer) return node;
 
             Deque<SearchTreeNode> newNodes = problem.expand(node); //expand this node to get some new nodes
             nodes = searchStrategy.addElements(nodes, newNodes); // add the new nodes to the old nodes
+
         }
 
         return null;

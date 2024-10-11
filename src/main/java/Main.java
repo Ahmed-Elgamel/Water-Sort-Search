@@ -37,25 +37,34 @@ public class Main {
         System.out.println("Test Case 4:");
         System.out.println("Input: " + testCase4Input);
         System.out.println("Expected Output: " + testCase4Output);
-//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase4Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase4Input,"BF",false));
         System.out.println();
 
         // Test Case 5: Larger Capacity
-        String testCase5Input = "4;4;r,g,b,y;r,g,e,e;b,y,e,e;e,e,e,e";
+        String testCase5Input = "4;4;r,r,b,y;r,y,e,e;b,y,e,e;e,e,e,e";
         String testCase5Output = "r,e,e,e;g,e,e,e;b,e,e,e;y,e,e,e";
         System.out.println("Test Case 5:");
         System.out.println("Input: " + testCase5Input);
         System.out.println("Expected Output: " + testCase5Output);
-//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase5Input,"BF",false));
         System.out.println();
 
-        // Test Case 6: Complex Separation
+        // Test Case 6: Complex Separation unsolvalbel i think
         String testCase6Input = "4;4;r,b,g,y;b,r,g,e;y,b,e,e;e,e,e,e";
         String testCase6Output = "r,e,e,e;b,e,e,e;y,e,e,e;g,e,e,e";
         System.out.println("Test Case 6:");
         System.out.println("Input: " + testCase6Input);
         System.out.println("Expected Output: " + testCase6Output);
-//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input,"BF",false));
+//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase6Input,"BF",false));
+        System.out.println();
+
+        // Test Case 6: Complex Separation unsolvalbel i think
+        String testCase7Input = "4;4;r,b,g,y;e,e,e,e;e,e,e,e;e,e,e,e";
+        String testCase7Output = "r,e,e,e;b,e,e,e;y,e,e,e;g,e,e,e";
+        System.out.println("Test Case 6:");
+        System.out.println("Input: " + testCase7Input);
+        System.out.println("Expected Output: " + testCase7Output);
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase7Input,"BF",false));
         System.out.println();
     }
 

@@ -5,6 +5,13 @@ public class Bottle {
     Integer filledIndex=-1;
     Integer bottleCapacity;
 
+    public Bottle(Bottle bottle){
+        layers = bottle.layers.clone();
+        this.filledIndex = bottle.filledIndex;
+        this.bottleCapacity = bottle.bottleCapacity;
+
+    }
+
     public Bottle(String [] colors){
         bottleCapacity = colors.length;
         layers = new Layer[bottleCapacity];
@@ -39,21 +46,26 @@ public class Bottle {
 
     public void addColor(Bottle bottleRemoveFrom){
         int numOfLayersWillPour = numOfLayersWillPour(bottleRemoveFrom);
-
+        System.out.println("ADD COLOR "+bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex] +" to "+ (filledIndex!=-1? layers[filledIndex]: "EMPTY"));
         for(int i=0;i<numOfLayersWillPour;i++){
             Layer layer = bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex];
             bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex--] = Layer.Empty;
+
             layers[++filledIndex] = layer;
         }
 
     }
 
     public int numOfLayersWillPour(Bottle bottleRemoveFrom){
-        int emptyLayers = bottleCapacity - filledIndex + 1;
+        int emptyLayers = bottleCapacity - (filledIndex + 1);
         int layersWillAdd = 1;
 
         for(int layer = bottleRemoveFrom.filledIndex - 1 ; layer>-1 ; layer--){
-            layersWillAdd += bottleRemoveFrom.layers[layer] == bottleRemoveFrom.layers[layer+1] ? 1 : 0;
+            if(bottleRemoveFrom.layers[layer] == bottleRemoveFrom.layers[layer+1])
+                layersWillAdd++;
+            else
+                break;
+
         }
         return Math.min(emptyLayers,layersWillAdd);
 
@@ -86,6 +98,7 @@ public class Bottle {
 
         return sb.toString();
     }
+
 
 
 

@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Answer {
     ArrayList<Operator> plan;
@@ -13,16 +16,28 @@ public class Answer {
 
     public String toString(){
        SearchTreeNode current = node;
-       System.out.println(node);
-       StringBuilder answer = new StringBuilder();
+        Deque<String> answer =new LinkedList<>();
+        System.out.println("depth "+current.depth);
+
        while (current.parent!=null)
        {
-           String s = "pour" + current.operator.bottle2+"_"+current.operator.bottle1+", ";
-           answer.append(s);
+           String s = "pour_" + current.operator.bottle2Idx+"_"+current.operator.bottle1Idx+", "+ current.operator.bottle2+" "+current.operator.bottle1+"" +
+                   "\n" +" ------"+current+" \n";
+           answer.add(s);
            current = current.parent;
 
        }
+       answer.add("Initial State: "+current+" \n");
 
-       return answer.toString();
+       Deque<String> answerFlipped =new LinkedList<>();
+       while(!answer.isEmpty())
+           answerFlipped.add(answer.removeLast());
+
+
+
+
+
+
+       return answerFlipped.toString();
     }
 }

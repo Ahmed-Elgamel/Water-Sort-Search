@@ -14,7 +14,14 @@ public class SearchTreeNode {
          */
 
 
-        Bottle []oldBottles = parent.state.bottles.clone(); // clone the bottles array of the parent node
+        Bottle []oldBottles = new Bottle[parent.state.bottles.length]; // DEEP clone the bottles array of the parent node
+        for(int i=0 ; i<oldBottles.length ; i++)
+            oldBottles[i] = new Bottle(parent.state.bottles[i]);
+
+
+        operator.bottle1 = oldBottles[operator.bottle1Idx];
+        operator.bottle2 = oldBottles[operator.bottle2Idx];
+
 
         State state = new State(oldBottles); // create new state same as old
         state.changeState(operator); // apply operator on the created state

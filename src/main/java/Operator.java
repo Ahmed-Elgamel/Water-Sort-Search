@@ -5,15 +5,15 @@ public class Operator {
      */
     Bottle bottle1;
     Bottle bottle2;
+    int bottle1Idx;
+    int bottle2Idx;
 
-    public Operator(Bottle [] bottles, int i, int j){
-        bottle1 = bottles[i];
-        bottle2 = bottles[j];
-    }
 
-    public Operator(Bottle bottle1, Bottle bottle2){
+    public Operator(Bottle bottle1, Bottle bottle2, int bottle1Idx, int bottle2Idx){
         this.bottle1 = bottle1;
         this.bottle2 = bottle2;
+        this.bottle1Idx = bottle1Idx;
+        this.bottle2Idx = bottle2Idx;
     }
 
     public boolean canApplyOperator(){
