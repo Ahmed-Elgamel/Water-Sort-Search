@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modify GenericSearch to return SerachTreeNode" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add structure of returning the answer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728658955793</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add structure of returning the answer">
+      <created>1728659385268</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728659385268</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +211,7 @@
     <MESSAGE value="CHANGE data structure to dequeue instead of queue" />
     <MESSAGE value="Add functionality to the BF_Search search strategy" />
     <MESSAGE value="Modify GenericSearch to return SerachTreeNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify GenericSearch to return SerachTreeNode" />
+    <MESSAGE value="Add structure of returning the answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add structure of returning the answer" />
   </component>
 </project>

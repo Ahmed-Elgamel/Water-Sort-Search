@@ -4,12 +4,24 @@ public class Answer {
     ArrayList<Operator> plan;
     int pathCost;
     int nodesExpanded;
+    SearchTreeNode node;
 
     public Answer(SearchTreeNode node){
-
+        node = node;
+        pathCost = node.cost;
     }
 
     public String toString(){
-        return "";
+       SearchTreeNode current = node;
+       StringBuilder answer = new StringBuilder();
+       while (current!=null)
+       {
+           String s = "pour" + current.operator.bottle2+"_"+current.operator.bottle1;
+           answer.append(s);
+           current = current.parent;
+           if(current!=null)
+               answer.append(",");
+       }
+       return answer.toString();
     }
 }
