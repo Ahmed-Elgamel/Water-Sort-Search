@@ -13,15 +13,16 @@ public class Answer {
 
     public String toString(){
        SearchTreeNode current = node;
+       System.out.println(node);
        StringBuilder answer = new StringBuilder();
-       while (current!=null)
+       while (current.parent!=null)
        {
-           String s = "pour" + current.operator.bottle2+"_"+current.operator.bottle1;
+           String s = "pour" + current.operator.bottle2+"_"+current.operator.bottle1+", ";
            answer.append(s);
            current = current.parent;
-           if(current!=null)
-               answer.append(",");
+
        }
+
        return answer.toString();
     }
 }

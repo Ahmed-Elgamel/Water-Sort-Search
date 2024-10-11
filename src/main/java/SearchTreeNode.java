@@ -19,6 +19,7 @@ public class SearchTreeNode {
         State state = new State(oldBottles); // create new state same as old
         state.changeState(operator); // apply operator on the created state
 
+        this.state = state;
         this.parent = parent;
         this.operator = operator;
         this.depth = parent.depth+1;

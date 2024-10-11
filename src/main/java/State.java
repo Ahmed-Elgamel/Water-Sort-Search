@@ -22,9 +22,12 @@ public class State {
 
     public boolean isGoalState(){
         boolean ans = true;
-
-        for(Bottle bottle: bottles)
+        System.out.println(Arrays.deepToString(bottles)+" lllll");
+        for(Bottle bottle: bottles){
+            System.out.println(bottle);
             ans&= bottle.isBottleSameColor();
+        }
+
 
         return ans;
     }

@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Remove uneccassry constructor">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Fix some logic errors">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728666710006</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fix some logic errors">
+      <created>1728667271887</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728667271887</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +238,7 @@
     <MESSAGE value="Add structure of returning the answer" />
     <MESSAGE value="Add printing of answer logic" />
     <MESSAGE value="Remove uneccassry constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove uneccassry constructor" />
+    <MESSAGE value="Fix some logic errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some logic errors" />
   </component>
 </project>

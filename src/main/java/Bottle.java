@@ -11,11 +11,11 @@ public class Bottle {
 
         for(int i=0 ; i<bottleCapacity ; i++){
             switch(colors[i]) {
-                case "r": this.layers[i] = Layer.Red; break;
-                case "g": this.layers[i] = Layer.Green; break;
-                case "b": this.layers[i] = Layer.Blue; break;
-                case "y": this.layers[i] = Layer.Yellow; break;
-                case "o": this.layers[i] = Layer.Orange; break;
+                case "r": this.layers[i] = Layer.Red; filledIndex++; break;
+                case "g": this.layers[i] = Layer.Green; filledIndex++; break;
+                case "b": this.layers[i] = Layer.Blue; filledIndex++; break;
+                case "y": this.layers[i] = Layer.Yellow; filledIndex++; break;
+                case "o": this.layers[i] = Layer.Orange; filledIndex++; break;
                 default: this.layers[i] = Layer.Empty;
 
             }
@@ -50,6 +50,8 @@ public class Bottle {
             return;
         }
     }
+
+
 
     public boolean isBottleSameColor(){
         boolean ans= true;
