@@ -13,6 +13,7 @@ public abstract class GenericSearch {
         while (nodes.size()!=0){
             SearchTreeNode node = searchStrategy.getElement(nodes); // get a node
             boolean foundAnswer = problem.goalTest(node); // checks if node pass the goal test function
+            if(foundAnswer) return null; //still will figure this out
 
             Queue<SearchTreeNode> newNodes = problem.expand(node); //expand this node to get some new nodes
             nodes = searchStrategy.addElements(nodes, newNodes); // add the new nodes to the old nodes

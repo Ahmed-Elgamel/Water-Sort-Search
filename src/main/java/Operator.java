@@ -11,16 +11,17 @@ public class Operator {
         bottle2 = bottles[j];
     }
 
+    public Operator(Bottle bottle1, Bottle bottle2){
+        this.bottle1 = bottle1;
+        this.bottle2 = bottle2;
+    }
 
-    public boolean applyOperator(){
+    public boolean canApplyOperator(){
+        return bottle1.canAddColor(bottle2);
+    }
 
-        if(bottle1.canAddColor(bottle2)){
-            bottle1.addColor(bottle2);
-            return true;
-        }
-
-        return false;
-
+    public void applyOperator(){
+        bottle1.addColor(bottle2);
     }
 
 }
