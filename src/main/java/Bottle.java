@@ -46,7 +46,7 @@ public class Bottle {
 
     public void addColor(Bottle bottleRemoveFrom){
         int numOfLayersWillPour = numOfLayersWillPour(bottleRemoveFrom);
-        System.out.println("ADD COLOR "+bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex] +" to "+ (filledIndex!=-1? layers[filledIndex]: "EMPTY"));
+
         for(int i=0;i<numOfLayersWillPour;i++){
             Layer layer = bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex];
             bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex--] = Layer.Empty;
