@@ -18,4 +18,9 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     public Queue<SearchTreeNode> expand(SearchTreeNode node) {
         return null;
     }
+
+    public static String solve(String initialState,String strategy, boolean visualize){
+        return "";
+
+    }
 }
