@@ -1,7 +1,6 @@
 import java.util.Queue;
 
 public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
-    SearchTreeNode node;
     String initialState;
     SearchStrategy searchStrategy;
     boolean visualize;
