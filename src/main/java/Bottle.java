@@ -38,17 +38,25 @@ public class Bottle {
     }
 
     public void addColor(Bottle bottleRemoveFrom){
-        Layer layer = bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex--];
+        int numOfLayersWillPour = numOfLayersWillPour(bottleRemoveFrom);
 
-        if (filledIndex==-1){
+        for(int i=0;i<numOfLayersWillPour;i++){
+            Layer layer = bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex];
+            bottleRemoveFrom.layers[bottleRemoveFrom.filledIndex--] = Layer.Empty;
             layers[++filledIndex] = layer;
-            return;
         }
 
-        if(layers[filledIndex] == layer){
-            layers[++filledIndex] = layer;
-            return;
+    }
+
+    public int numOfLayersWillPour(Bottle bottleRemoveFrom){
+        int emptyLayers = bottleCapacity - filledIndex + 1;
+        int layersWillAdd = 1;
+
+        for(int layer = bottleRemoveFrom.filledIndex - 1 ; layer>-1 ; layer--){
+            layersWillAdd += bottleRemoveFrom.layers[layer] == bottleRemoveFrom.layers[layer+1] ? 1 : 0;
         }
+        return Math.min(emptyLayers,layersWillAdd);
+
     }
 
 
