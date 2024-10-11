@@ -28,5 +28,18 @@ public class SearchTreeNode {
 
     }
 
+    /* creates the ROOT search tree node from the initial state given
+    This constructor is only called when initializing the root node
+     */
+
+    public SearchTreeNode(State state){
+        this.state = state;
+        this.parent = null;
+        this.operator = null;
+        this.depth = 0;
+        //todo cost
+
+    }
+
 
 }

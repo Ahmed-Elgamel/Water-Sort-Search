@@ -1,31 +1,21 @@
-public class WaterSortSearch extends GenericSearch implements WaterSortProblem{
+import java.util.ArrayList;
+import java.util.Queue;
+
+public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
+
     @Override
-    public Answer[] DF_search() {
-        return new Answer[0];
+    public boolean goalTest(SearchTreeNode node) {
+        return false;
+
     }
 
     @Override
-    public Answer[] BF_search() {
-        return new Answer[0];
+    public State initState() {
+        return null;
     }
 
     @Override
-    public Answer[] ID_search() {
-        return new Answer[0];
-    }
-
-    @Override
-    public Answer[] UC_search() {
-        return new Answer[0];
-    }
-
-    @Override
-    public Answer[] Greedy_search() {
-        return new Answer[0];
-    }
-
-    @Override
-    public Answer[] ASTAR_search() {
-        return new Answer[0];
+    public Queue<SearchTreeNode> expand(SearchTreeNode node) {
+        return null;
     }
 }
