@@ -13,6 +13,13 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         this.visualize = visualize;
     }
 
+    public static String solve(String initialState,String strategy, boolean visualize){
+        WaterSortSearch waterSortSearch = new WaterSortSearch(initialState, strategy, visualize);
+        return null;
+
+    }
+
+
     @Override
     public boolean goalTest(SearchTreeNode node) {
         return false;
@@ -31,31 +38,4 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         return null;
     }
 
-    public static String solve(String initialState,String strategy, boolean visualize){
-        WaterSortSearch waterSortSearch = new WaterSortSearch(initialState, strategy, visualize);
-        return null;
-
-    }
-
-
-    public static SearchStrategy initializeSearchStrategy(String strategy){
-        return null;
-
-    }
-
-    public SearchTreeNode getNode() {
-        return node;
-    }
-
-    public SearchStrategy getSearchStrategy() {
-        return searchStrategy;
-    }
-
-    public void setNode(SearchTreeNode node) {
-        this.node = node;
-    }
-
-    public void setSearchStrategy(SearchStrategy searchStrategy) {
-        this.searchStrategy = searchStrategy;
-    }
 }
