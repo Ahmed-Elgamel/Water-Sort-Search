@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Remove uneccessary method">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add functionality to the BF_Search search strategy">
       <change beforePath="$PROJECT_DIR$/src/main/java/BF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728657913201</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CHANGE data structure to dequeue instead of queue">
+      <created>1728658290200</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728658290200</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add functionality to the BF_Search search strategy">
+      <created>1728658446734</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728658446734</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +193,8 @@
     <MESSAGE value="Add logic for goal test functionality" />
     <MESSAGE value="Add logic of expand function of water sort search" />
     <MESSAGE value="Remove uneccessary method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove uneccessary method" />
+    <MESSAGE value="CHANGE data structure to dequeue instead of queue" />
+    <MESSAGE value="Add functionality to the BF_Search search strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functionality to the BF_Search search strategy" />
   </component>
 </project>

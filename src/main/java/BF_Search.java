@@ -1,5 +1,4 @@
 import java.util.Deque;
-import java.util.Queue;
 
 public class BF_Search implements SearchStrategy {
     @Override
