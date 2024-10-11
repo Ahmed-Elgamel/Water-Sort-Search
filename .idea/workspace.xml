@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add logic for goal test functionality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Remove uneccessary method">
+      <change beforePath="$PROJECT_DIR$/src/main/java/BF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728655316635</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add logic of expand function of water sort search">
+      <created>1728657871821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728657871821</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Remove uneccessary method">
+      <created>1728657913201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728657913201</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +177,8 @@
     <MESSAGE value="remove uneccessary instance variable" />
     <MESSAGE value="remove uneccessary methods" />
     <MESSAGE value="Add logic for goal test functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add logic for goal test functionality" />
+    <MESSAGE value="Add logic of expand function of water sort search" />
+    <MESSAGE value="Remove uneccessary method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove uneccessary method" />
   </component>
 </project>

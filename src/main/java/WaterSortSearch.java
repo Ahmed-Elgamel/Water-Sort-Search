@@ -1,3 +1,4 @@
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -39,7 +40,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     }
 
     @Override
-    public Queue<SearchTreeNode> expand(SearchTreeNode node) {
+    public Deque<SearchTreeNode> expand(SearchTreeNode node) {
         /*
         _ apply operator(s) on this node
         _ we only have one operator -> the pour operator
@@ -47,7 +48,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
           but in our case we just assume that the operator class to be the pour operator
          */
         Bottle []bottles = node.state.getBottles();
-        Queue<SearchTreeNode> expandedNodes = new LinkedList<>();
+        Deque<SearchTreeNode> expandedNodes = new LinkedList<>();
 
         for(int i=0 ; i<bottles.length ; i++){
             Bottle bottle2 = bottles[i];
