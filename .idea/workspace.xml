@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="remove uneccessary instance variable" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="remove uneccessary methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728654018415</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="remove uneccessary methods">
+      <created>1728654761763</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728654761763</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +152,7 @@
     <MESSAGE value="Change searchStrategy instance variable from string &#10;to an instance of the SearchStrategy class" />
     <MESSAGE value="remove uneccessary functions" />
     <MESSAGE value="remove uneccessary instance variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove uneccessary instance variable" />
+    <MESSAGE value="remove uneccessary methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove uneccessary methods" />
   </component>
 </project>

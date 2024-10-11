@@ -5,7 +5,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     SearchStrategy searchStrategy;
     boolean visualize;
 
-    // set the instance varibles of this class as well as create the appropriate search strategy
+    // set the instance variables of this class as well as create the appropriate search strategy
     public WaterSortSearch(String initialState,String strategy, boolean visualize){
         this.initialState = initialState;
         if(strategy.equals("BF"))
@@ -26,7 +26,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
     @Override
     public boolean goalTest(SearchTreeNode node) {
-        return false;
+        return node.state.isGoalState(); // is the state in this node satisfy our goal?
 
     }
 

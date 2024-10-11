@@ -37,6 +37,15 @@ public class Bottle {
         }
     }
 
+    public boolean isBottleSameColor(){
+        boolean ans= true;
+
+        for(int layer =filledIndex-1; layer>-1; layer--){
+            ans&= colors[layer] == colors[layer+1];
+        }
+        return ans;
+    }
+
     public Integer getFilledIndex() {
         return filledIndex;
     }
