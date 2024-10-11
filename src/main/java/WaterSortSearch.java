@@ -2,7 +2,15 @@ import java.util.Queue;
 
 public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     SearchTreeNode node;
-    SearchStrategy searchStrategy;
+    String initialState;
+    String strategy;
+    boolean visualize;
+
+    public WaterSortSearch(String initialState,String strategy, boolean visualize){
+        this.initialState = initialState;
+        this.strategy = strategy;
+        this.visualize = visualize;
+    }
 
     @Override
     public boolean goalTest(SearchTreeNode node) {
@@ -12,6 +20,8 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
     @Override
     public State initState() {
+        //todo take the initialState string and create a state out of it
+
         return null;
     }
 
@@ -21,17 +31,30 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     }
 
     public static String solve(String initialState,String strategy, boolean visualize){
-        return "";
-
-    }
-
-    public static State initializeState(String initialState){
+        WaterSortSearch waterSortSearch = new WaterSortSearch(initialState, strategy, visualize);
         return null;
 
     }
+
 
     public static SearchStrategy initializeSearchStrategy(String strategy){
         return null;
 
+    }
+
+    public SearchTreeNode getNode() {
+        return node;
+    }
+
+    public SearchStrategy getSearchStrategy() {
+        return searchStrategy;
+    }
+
+    public void setNode(SearchTreeNode node) {
+        this.node = node;
+    }
+
+    public void setSearchStrategy(SearchStrategy searchStrategy) {
+        this.searchStrategy = searchStrategy;
     }
 }
