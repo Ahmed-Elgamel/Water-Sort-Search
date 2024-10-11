@@ -7,7 +7,7 @@ public class Answer {
     SearchTreeNode node;
 
     public Answer(SearchTreeNode node){
-        node = node;
+        this.node = node;
         pathCost = node.cost;
     }
 

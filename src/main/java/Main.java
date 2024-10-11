@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Test Case 2:");
         System.out.println("Input: " + testCase2Input);
         System.out.println("Expected Output: " + testCase2Output);
-//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase2Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase2Input,"BF",false));
         System.out.println();
 
         // Test Case 3: Impossible Separation
