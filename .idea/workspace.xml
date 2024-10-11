@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Add functionality to the BF_Search search strategy">
-      <change beforePath="$PROJECT_DIR$/src/main/java/BF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modify GenericSearch to return SerachTreeNode" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728658446734</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Modify GenericSearch to return SerachTreeNode">
+      <created>1728658955793</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728658955793</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +200,7 @@
     <MESSAGE value="Remove uneccessary method" />
     <MESSAGE value="CHANGE data structure to dequeue instead of queue" />
     <MESSAGE value="Add functionality to the BF_Search search strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add functionality to the BF_Search search strategy" />
+    <MESSAGE value="Modify GenericSearch to return SerachTreeNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify GenericSearch to return SerachTreeNode" />
   </component>
 </project>

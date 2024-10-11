@@ -15,13 +15,19 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         this.visualize = visualize;
     }
 
-    public void runSearchAlgorithm(){
-        GenericSearch.General_Search(this, searchStrategy);
+    public String runSearchAlgorithm(){
+        SearchTreeNode node = GenericSearch.General_Search(this, searchStrategy);
+        if(node == null)// then there is no answer to this environment/initial state
+            return "NOSOLUTION";
+
+        Answer answer = new Answer(node);
+        return answer.toString();
+
     }
     public static String solve(String initialState,String strategy, boolean visualize){
         WaterSortSearch waterSortSearch = new WaterSortSearch(initialState, strategy, visualize);
-        waterSortSearch.runSearchAlgorithm();
-        return null;
+        return waterSortSearch.runSearchAlgorithm();
+
 
     }
 
