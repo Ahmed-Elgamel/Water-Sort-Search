@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.Objects;
+
 
 public class Bottle {
     Layer[] layers;
@@ -97,6 +99,23 @@ public class Bottle {
             sb.append(layers[i]+" ");
 
         return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Bottle bottle = (Bottle) o;
+        return Arrays.equals(layers, bottle.layers) &&  // Compare layers array
+                Objects.equals(filledIndex, bottle.filledIndex) &&
+                Objects.equals(bottleCapacity, bottle.bottleCapacity);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(filledIndex, bottleCapacity);  // Hash fields
+        result = 31 * result + Arrays.hashCode(layers);  // Include the layers array hash
+        return result;
     }
 
 

@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Fix logic when pouring colors from when bottle to the other">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Remove printing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728669180358</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fix references errors deep cloning&#10;and fix format of the answer string. BFS is probably 80% done">
+      <created>1728680463088</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728680463088</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Remove printing">
+      <created>1728680977145</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728680977145</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +266,8 @@
     <MESSAGE value="Fix some logic errors" />
     <MESSAGE value="Incremented filled index whne inializing the bottles" />
     <MESSAGE value="Fix logic when pouring colors from when bottle to the other" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix logic when pouring colors from when bottle to the other" />
+    <MESSAGE value="Fix references errors deep cloning&#10;and fix format of the answer string. BFS is probably 80% done" />
+    <MESSAGE value="Remove printing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove printing" />
   </component>
 </project>
