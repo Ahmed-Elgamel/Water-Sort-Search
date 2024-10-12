@@ -8,7 +8,7 @@ public abstract class GenericSearch {
     public static SearchTreeNode General_Search(Problem problem, SearchStrategy searchStrategy){
         // initialize the root node
         State initialState = problem.initState();
-        Deque<SearchTreeNode> nodes = new LinkedList<>();
+        Queue<SearchTreeNode> nodes = searchStrategy.generateDataStructure();
         nodes.add(new SearchTreeNode(initialState));
 
         while (nodes.size()!=0){

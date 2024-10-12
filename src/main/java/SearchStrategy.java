@@ -2,8 +2,10 @@ import java.util.Deque;
 import java.util.Queue;
 
 public interface SearchStrategy {
-    Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> oldNodes, Deque<SearchTreeNode> newNodes);
-    SearchTreeNode getElement(Deque<SearchTreeNode> elements);
+    Queue<SearchTreeNode> addElements(Queue<SearchTreeNode> oldNodes, Queue<SearchTreeNode> newNodes);
+    SearchTreeNode getElement(Queue<SearchTreeNode> elements);
     SearchTreeNode runSearchAlgorithm(Problem problem);
+
+    Queue<SearchTreeNode> generateDataStructure();
 
     }

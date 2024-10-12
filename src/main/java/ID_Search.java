@@ -1,13 +1,15 @@
 import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class ID_Search implements SearchStrategy{
     @Override
-    public Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> oldNodes, Deque<SearchTreeNode> newNodes) {
+    public Deque<SearchTreeNode> addElements(Queue<SearchTreeNode> oldNodes, Queue<SearchTreeNode> newNodes) {
         return null;
     }
 
     @Override
-    public SearchTreeNode getElement(Deque<SearchTreeNode> elements) {
+    public SearchTreeNode getElement(Queue<SearchTreeNode> elements) {
         return null;
     }
 
@@ -22,5 +24,11 @@ public class ID_Search implements SearchStrategy{
             depthLimit++;
         }
         return node;
+    }
+
+    @Override
+    public Queue<SearchTreeNode> generateDataStructure() {
+        Deque<SearchTreeNode> deque = new LinkedList<>();
+        return  deque;
     }
 }

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="change input variable names to search strategy interface">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="remove comment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BF_Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DF_Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DL_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DL_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ID_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ID_Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SearchStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
@@ -42,14 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ahmedhamed/dev/Water-Sort-Search/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/ahmedhamed/dev/Water-Sort-Search/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -281,7 +287,28 @@
       <option name="project" value="LOCAL" />
       <updated>1728738572984</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="change structure when running the search algorithm&#10;to be inside the search strategy class instead of inside the problem class">
+      <created>1728739389833</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728739389833</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Iterative deepening search class setup">
+      <created>1728739631543</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728739631543</updated>
+    </task>
+    <task id="LOCAL-00034" summary="remove comment">
+      <created>1728739654541</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728739654541</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,9 +323,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class" />
-    <MESSAGE value="Change searchStrategy instance variable from string &#10;to an instance of the SearchStrategy class" />
-    <MESSAGE value="remove uneccessary functions" />
     <MESSAGE value="remove uneccessary instance variable" />
     <MESSAGE value="remove uneccessary methods" />
     <MESSAGE value="Add logic for goal test functionality" />
@@ -321,6 +345,9 @@
     <MESSAGE value="DFS class setup" />
     <MESSAGE value="Depth limited Search class setup" />
     <MESSAGE value="change input variable names to search strategy interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="change input variable names to search strategy interface" />
+    <MESSAGE value="change structure when running the search algorithm&#10;to be inside the search strategy class instead of inside the problem class" />
+    <MESSAGE value="Iterative deepening search class setup" />
+    <MESSAGE value="remove comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove comment" />
   </component>
 </project>

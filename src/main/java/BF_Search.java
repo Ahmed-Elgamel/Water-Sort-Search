@@ -1,5 +1,4 @@
-import java.util.Deque;
-import java.util.Iterator;
+import java.util.*;
 
 public class BF_Search implements SearchStrategy {
 
@@ -10,19 +9,32 @@ public class BF_Search implements SearchStrategy {
 
 
     @Override
-    public Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> oldNodes, Deque<SearchTreeNode> newNodes) {
-        Iterator iterator = newNodes.iterator();
+    public Queue<SearchTreeNode> addElements(Queue<SearchTreeNode> oldNodes, Queue<SearchTreeNode> newNodes) {
+        Deque<SearchTreeNode> deque1;
+        Deque<SearchTreeNode> deque2;
+
+        deque1 = (Deque<SearchTreeNode>) oldNodes;
+        deque2 = (Deque<SearchTreeNode>) newNodes;
+
+        Iterator iterator = deque2.iterator();
 
         while(iterator.hasNext()){
            SearchTreeNode element = (SearchTreeNode) iterator.next();
-           oldNodes.addLast(element);
+            deque1.addLast(element);
        }
 
-       return oldNodes;
+       return deque1;
     }
 
     @Override
-    public SearchTreeNode getElement(Deque<SearchTreeNode> nodes) {
-        return nodes.pollFirst();
+    public SearchTreeNode getElement(Queue<SearchTreeNode> nodes) {
+        Deque<SearchTreeNode> deque = (Deque<SearchTreeNode>) nodes;
+        return deque.pollFirst();
+    }
+
+    @Override
+    public Queue<SearchTreeNode> generateDataStructure() {
+        Deque<SearchTreeNode> deque = new LinkedList<>();
+        return  deque;
     }
 }
