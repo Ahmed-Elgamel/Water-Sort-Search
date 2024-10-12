@@ -38,4 +38,20 @@ public class State {
     public String toString(){
         return Arrays.deepToString(bottles);
     }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        State that = (State) o;
+        // Compare as sets by checking if they contain the same bottles
+        return Arrays.stream(this.bottles).allMatch(b -> Arrays.asList(that.bottles).contains(b))
+                && this.bottles.length == that.bottles.length;
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.stream(bottles).mapToInt(Bottle::hashCode).sum();  // Sum hash codes of all bottles
+    }
 }
