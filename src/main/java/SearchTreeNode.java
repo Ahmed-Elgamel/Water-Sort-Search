@@ -48,7 +48,7 @@ public class SearchTreeNode {
     }
 
     public String toString(){
-        StringBuilder s =new StringBuilder("State: "+state+ " Operator: "+ " Depth: "+" Cost: ");
+        StringBuilder s =new StringBuilder("State: "+state+ " Operator: "+operator+ " Depth: "+depth+" Cost: "+cost);
         return s.toString();
 
     }

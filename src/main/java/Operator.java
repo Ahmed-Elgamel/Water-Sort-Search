@@ -24,4 +24,8 @@ public class Operator {
         bottle1.addColor(bottle2);
     }
 
+    public String toString(){
+        return bottle2Idx+"-->"+bottle1Idx;
+    }
+
 }
