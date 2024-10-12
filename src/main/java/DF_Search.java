@@ -10,4 +10,10 @@ public class DF_Search implements SearchStrategy{
     public SearchTreeNode getElement(Deque<SearchTreeNode> nodes) {
         return null;
     }
+
+    @Override
+    public SearchTreeNode runSearchAlgorithm(Problem problem) {
+        return GenericSearch.General_Search(problem, this);
+
+    }
 }

@@ -25,4 +25,11 @@ public class DL_Search implements SearchStrategy{
     public SearchTreeNode getElement(Deque<SearchTreeNode> nodes) {
         return nodes.pollFirst();
     }
+
+    @Override
+    public SearchTreeNode runSearchAlgorithm(Problem problem) {
+        return GenericSearch.General_Search(problem, this);
+
+
+    }
 }

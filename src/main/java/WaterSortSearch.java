@@ -22,7 +22,10 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     }
 
     public String runSearchAlgorithm(){
-        SearchTreeNode node = GenericSearch.General_Search(this, searchStrategy);
+        SearchTreeNode node = searchStrategy.runSearchAlgorithm(this);
+//        SearchTreeNode node = GenericSearch.General_Search(this, searchStrategy);
+
+
         if(node == null)// then there is no answer to this environment/initial state
             return "NOSOLUTION";
 
