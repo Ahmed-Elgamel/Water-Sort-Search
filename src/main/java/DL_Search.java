@@ -9,20 +9,20 @@ public class DL_Search implements SearchStrategy{
     }
 
     @Override
-    public Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> elements1, Deque<SearchTreeNode> elements2) {
-        Iterator iterator = elements2.iterator();
+    public Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> oldNodes, Deque<SearchTreeNode> newNodes) {
+        Iterator iterator = newNodes.iterator();
 
         while(iterator.hasNext()){
             SearchTreeNode element = (SearchTreeNode) iterator.next();
             if(element.depth<=depthLimit)
-                elements1.addFirst(element);
+                oldNodes.addFirst(element);
         }
 
-        return elements1;
+        return oldNodes;
     }
 
     @Override
-    public SearchTreeNode getElement(Deque<SearchTreeNode> elements) {
-        return elements.pollFirst();
+    public SearchTreeNode getElement(Deque<SearchTreeNode> nodes) {
+        return nodes.pollFirst();
     }
 }

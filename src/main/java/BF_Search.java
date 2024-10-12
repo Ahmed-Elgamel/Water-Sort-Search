@@ -3,19 +3,19 @@ import java.util.Iterator;
 
 public class BF_Search implements SearchStrategy {
     @Override
-    public Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> elements1, Deque<SearchTreeNode> elements2) {
-        Iterator iterator = elements2.iterator();
+    public Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> oldNodes, Deque<SearchTreeNode> newNodes) {
+        Iterator iterator = newNodes.iterator();
 
         while(iterator.hasNext()){
            SearchTreeNode element = (SearchTreeNode) iterator.next();
-           elements1.addLast(element);
+           oldNodes.addLast(element);
        }
 
-       return elements1;
+       return oldNodes;
     }
 
     @Override
-    public SearchTreeNode getElement(Deque<SearchTreeNode> elements) {
-        return elements.pollFirst();
+    public SearchTreeNode getElement(Deque<SearchTreeNode> nodes) {
+        return nodes.pollFirst();
     }
 }

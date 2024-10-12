@@ -2,6 +2,6 @@ import java.util.Deque;
 import java.util.Queue;
 
 public interface SearchStrategy {
-    Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> elements1, Deque<SearchTreeNode> elements2);
+    Deque<SearchTreeNode> addElements(Deque<SearchTreeNode> oldNodes, Deque<SearchTreeNode> newNodes);
     SearchTreeNode getElement(Deque<SearchTreeNode> elements);
 }
