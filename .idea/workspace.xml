@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Expand unseen states only" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="DFS class setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728736162710</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="DFS class setup">
+      <created>1728737258287</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737258287</updated>
+    </task>
+    <task id="LOCAL-00029" summary="DFS class setup">
+      <created>1728737280211</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737280211</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +276,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add General_Search Functions" />
     <MESSAGE value="Change name of QingFunction to SearchStrategy" />
     <MESSAGE value="Modified interface name" />
     <MESSAGE value="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class" />
@@ -287,6 +300,7 @@
     <MESSAGE value="Add hash function to bottle class" />
     <MESSAGE value="Add hash and compare functions to state class" />
     <MESSAGE value="Expand unseen states only" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expand unseen states only" />
+    <MESSAGE value="DFS class setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS class setup" />
   </component>
 </project>
