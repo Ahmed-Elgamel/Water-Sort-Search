@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Test Case 3:");
         System.out.println("Input: " + testCase3Input);
         System.out.println("Expected Output: " + testCase3Output);
-//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase3Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase3Input,"BF",false));
         System.out.println();
 
         // Test Case 4: Multiple Empty Bottles
