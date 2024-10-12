@@ -85,7 +85,11 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
                         // So a new node with the new state must be added to the expanded nodes
                         // todo remove repeated states ***important***
                         SearchTreeNode newSearchTreeNode = new SearchTreeNode(node, operator);
-                        expandedNodes.add(newSearchTreeNode);
+                        if(!visitedStates.contains(newSearchTreeNode.state)){
+                            expandedNodes.add(newSearchTreeNode);
+                            visitedStates.add(newSearchTreeNode.state);
+                        }
+
 
                     }
                 }

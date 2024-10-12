@@ -55,13 +55,13 @@ public class Main {
         System.out.println("Test Case 6:");
         System.out.println("Input: " + testCase6Input);
         System.out.println("Expected Output: " + testCase6Output);
-//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase6Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase6Input,"BF",false));
         System.out.println();
 
-        // Test Case 6: Complex Separation unsolvalbel i think
+        // Test Case 6: Complex Separation
         String testCase7Input = "4;4;r,b,g,y;e,e,e,e;e,e,e,e;e,e,e,e";
         String testCase7Output = "r,e,e,e;b,e,e,e;y,e,e,e;g,e,e,e";
-        System.out.println("Test Case 6:");
+        System.out.println("Test Case 7:");
         System.out.println("Input: " + testCase7Input);
         System.out.println("Expected Output: " + testCase7Output);
         System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase7Input,"BF",false));
