@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="calculate heuristic value of a node if it is a greedy search strategy" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Finish greedy search">
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728842726689</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Finish greedy search">
+      <created>1728843206732</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1728843206732</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Incremented filled index whne inializing the bottles" />
     <MESSAGE value="Fix logic when pouring colors from when bottle to the other" />
     <MESSAGE value="Fix references errors deep cloning&#10;and fix format of the answer string. BFS is probably 80% done" />
     <MESSAGE value="Remove printing" />
@@ -424,6 +432,7 @@
     <MESSAGE value="Modified search tree node to handle search strategies that use heuristics" />
     <MESSAGE value="Greedy search strategy structure defined" />
     <MESSAGE value="calculate heuristic value of a node if it is a greedy search strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculate heuristic value of a node if it is a greedy search strategy" />
+    <MESSAGE value="Finish greedy search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish greedy search" />
   </component>
 </project>
