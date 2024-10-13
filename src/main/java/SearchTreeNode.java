@@ -31,7 +31,7 @@ public class SearchTreeNode {
         this.parent = parent;
         this.operator = operator;
         this.depth = parent.depth+1;
-        //todo cost
+        this.cost = parent.cost + operator.cost;
 
     }
 
@@ -44,7 +44,7 @@ public class SearchTreeNode {
         this.parent = null;
         this.operator = null;
         this.depth = 0;
-        //todo cost
+        this.cost = 0;
 
     }
 

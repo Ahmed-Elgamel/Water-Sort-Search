@@ -7,6 +7,7 @@ public class Operator {
     Bottle bottle2;
     int bottle1Idx;
     int bottle2Idx;
+    int cost;
 
 
     public Operator(Bottle bottle1, Bottle bottle2, int bottle1Idx, int bottle2Idx){
@@ -21,7 +22,7 @@ public class Operator {
     }
 
     public void applyOperator(){
-        bottle1.addColor(bottle2);
+        this.cost = bottle1.addColor(bottle2);
     }
 
     public String toString(){

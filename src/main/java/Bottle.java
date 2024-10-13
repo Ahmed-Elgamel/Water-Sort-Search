@@ -46,7 +46,7 @@ public class Bottle {
         return false;
     }
 
-    public void addColor(Bottle bottleRemoveFrom){
+    public int addColor(Bottle bottleRemoveFrom){
         int numOfLayersWillPour = numOfLayersWillPour(bottleRemoveFrom);
 
         for(int i=0;i<numOfLayersWillPour;i++){
@@ -55,6 +55,8 @@ public class Bottle {
 
             layers[++filledIndex] = layer;
         }
+
+        return numOfLayersWillPour; //this is the cost of apply the pour operation
 
     }
 
