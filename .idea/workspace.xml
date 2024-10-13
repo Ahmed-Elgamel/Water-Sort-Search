@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modified answer string">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Include number of expanded nodes in answer string" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,13 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Modified interface name">
-      <created>1728652038832</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728652038832</updated>
     </task>
     <task id="LOCAL-00006" summary="Modify WaterSortSearch to include a&#10;constructor and a solve function that creates an instance of the WaterSortSearch class">
       <created>1728653118148</created>
@@ -409,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728846309815</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Include number of expanded nodes in answer string">
+      <created>1728848538719</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1728848538719</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DFS class setup" />
     <MESSAGE value="Depth limited Search class setup" />
     <MESSAGE value="change input variable names to search strategy interface" />
     <MESSAGE value="change structure when running the search algorithm&#10;to be inside the search strategy class instead of inside the problem class" />
@@ -449,6 +444,7 @@
     <MESSAGE value="Finished second heuristic" />
     <MESSAGE value="ADD instantiation of A* search" />
     <MESSAGE value="Modified answer string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified answer string" />
+    <MESSAGE value="Include number of expanded nodes in answer string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Include number of expanded nodes in answer string" />
   </component>
 </project>
