@@ -23,6 +23,7 @@ public class SearchTreeNode {
         operator.bottle2 = oldBottles[operator.bottle2Idx];
 
 
+
         State state = new State(oldBottles); // create new state same as old
         state.changeState(operator); // apply operator on the created state
 
@@ -48,7 +49,7 @@ public class SearchTreeNode {
     }
 
     public String toString(){
-        StringBuilder s =new StringBuilder("State: "+state+ " Operator: "+operator+ " Depth: "+depth+" Cost: "+cost);
+        StringBuilder s =new StringBuilder("State: " + state + " Operator: "+operator+ " Depth: "+depth+" Cost: "+cost);
         return s.toString();
 
     }

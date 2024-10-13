@@ -25,5 +25,17 @@ public abstract class GenericSearch {
 
     }
 
+    public static void printExpandedNodes(Queue<SearchTreeNode> nodes){
+        StringBuilder sb =new StringBuilder();
+        sb.append("EXPANDED NODES: \n");
+
+        for(SearchTreeNode searchTreeNode: nodes){
+            sb.append(searchTreeNode);
+        }
+         sb.toString();
+        sb.append("\n");
+        System.out.println(sb);
+    }
+
 
 }

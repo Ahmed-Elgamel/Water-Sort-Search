@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Test Case 1:");
         System.out.println("Input: " + testCase1Input);
         System.out.println("Expected Output: " + testCase1Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input, "BF", false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input, "ID", false));
         System.out.println();
 
         // Test Case 2: Already Separated
@@ -60,7 +60,7 @@ public class Main {
         System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase6Input, "BF", false));
         System.out.println();
 
-        // Test Case 6: Complex Separation
+        // Test Case 7: Complex Separation
         String testCase7Input = "4;4;r,b,g,y;e,e,e,e;e,e,e,e;e,e,e,e";
         String testCase7Output = "r,e,e,e;b,e,e,e;y,e,e,e;g,e,e,e";
         System.out.println("Test Case 7:");
@@ -75,13 +75,13 @@ public class Main {
         System.out.println("Test Case 8:");
         System.out.println("Input: " + testCase8Input);
         System.out.println("Expected Output: " + testCase8Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input, "DF", false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input, "ID", false));
         System.out.println();
 
 
-        // Test Case 8: Complex Separation
+        // Test Case 9: Complex Separation
         String testCase9Input = "5;4;" +"b,y,r,b;" + "b,y,r,r;" +"y,r,b,y;" + "e,e,e,e;" + "e,e,e,e";
-        System.out.println("Test Case 8:");
+        System.out.println("Test Case 9:");
         System.out.println("Input: " + testCase8Input);
         System.out.println("Expected Output: " + testCase8Output);
         System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase9Input, "BF", false));
@@ -90,7 +90,7 @@ public class Main {
 
 
 
-        // Test Case 8: Complex Separation
+//         Test Case 8: Complex Separation
 
     }
 

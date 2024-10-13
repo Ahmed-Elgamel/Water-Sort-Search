@@ -16,7 +16,14 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
         if(strategy.equals("BF"))
             this.searchStrategy = new BF_Search();
-        //todo DFS, IDS, UCS, GREEDY, A*
+        else if(strategy.equals("DF"))
+            this.searchStrategy = new DF_Search();
+        else if(strategy.equals("DL"))
+            this.searchStrategy = new DL_Search(1);
+        else if(strategy.equals("ID"))
+            this.searchStrategy = new ID_Search();
+
+        //todo UCS, GREEDY, A*
 
     }
 
@@ -101,5 +108,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
 
     }
+
+
 
 }
