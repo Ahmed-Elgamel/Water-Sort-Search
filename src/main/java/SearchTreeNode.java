@@ -4,9 +4,10 @@ public class SearchTreeNode {
     Operator operator;
     int depth;
     int cost;
+    int heuristic;
 
     // create e new search tree node by applying the operator
-    public SearchTreeNode(SearchTreeNode parent, Operator operator){
+    public SearchTreeNode(SearchTreeNode parent, Operator operator, SearchStrategy searchStrategy){
         /*
         create a search tree node by applying the operator
         1) create a new state same as the parent state

@@ -92,7 +92,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
                     if(operator.canApplyOperator()){
                         // i can pour from bottle2 to bottle1
                         // So a new node with the new state must be added to the expanded nodes
-                        SearchTreeNode newSearchTreeNode = new SearchTreeNode(node, operator);
+                        SearchTreeNode newSearchTreeNode = new SearchTreeNode(node, operator, searchStrategy);
                         if(!visitedStates.contains(newSearchTreeNode.state)){
                             expandedNodes.add(newSearchTreeNode);
                             visitedStates.add(newSearchTreeNode.state);
