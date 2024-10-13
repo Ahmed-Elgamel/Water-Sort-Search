@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="IDS search strategy reset visited states with each new depth limit">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="proper cost calculation is implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728832923584</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="proper cost calculation is implemented">
+      <created>1728834983286</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1728834983286</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +361,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CHANGE data structure to dequeue instead of queue" />
     <MESSAGE value="Add functionality to the BF_Search search strategy" />
     <MESSAGE value="Modify GenericSearch to return SerachTreeNode" />
     <MESSAGE value="Add structure of returning the answer" />
@@ -379,6 +385,7 @@
     <MESSAGE value="DFS class complete" />
     <MESSAGE value="Add instantiation of DFS and IDS search strategies" />
     <MESSAGE value="IDS search strategy reset visited states with each new depth limit" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDS search strategy reset visited states with each new depth limit" />
+    <MESSAGE value="proper cost calculation is implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="proper cost calculation is implemented" />
   </component>
 </project>

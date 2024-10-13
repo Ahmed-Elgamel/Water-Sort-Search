@@ -22,6 +22,8 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
             this.searchStrategy = new DL_Search(1);
         else if(strategy.equals("ID"))
             this.searchStrategy = new ID_Search();
+        else if (strategy.equals("UC"))
+            this.searchStrategy = new UC_Search();
 
         //todo UCS, GREEDY, A*
 

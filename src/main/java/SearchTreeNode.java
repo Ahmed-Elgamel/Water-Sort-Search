@@ -25,7 +25,7 @@ public class SearchTreeNode {
 
 
         State state = new State(oldBottles); // create new state same as old
-        state.changeState(operator); // apply operator on the created state
+        state.changeState(operator); // apply operator on the created state, now the operator stores the cost of this pour operation
 
         this.state = state;
         this.parent = parent;
