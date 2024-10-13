@@ -1,24 +1,36 @@
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
-public class DF_Search implements SearchStrategy{
+public class DF_Search implements SearchStrategy {
+
+
+    public SearchTreeNode runSearchAlgorithm(Problem problem){
+        return GenericSearch.General_Search(problem, this);
+    }
+
+
     @Override
-    public Deque<SearchTreeNode> addElements(Queue<SearchTreeNode> oldNodes, Queue<SearchTreeNode> newNodes) {
-        return null;
+    public Queue<SearchTreeNode> addElements(Queue<SearchTreeNode> oldNodes, Queue<SearchTreeNode> newNodes) {
+        Deque<SearchTreeNode> deque1;
+        Deque<SearchTreeNode> deque2;
+
+        deque1 = (Deque<SearchTreeNode>) oldNodes;
+        deque2 = (Deque<SearchTreeNode>) newNodes;
+
+        Iterator iterator = deque2.iterator();
+
+        while(iterator.hasNext()){
+            SearchTreeNode element = (SearchTreeNode) iterator.next();
+            deque1.addFirst(element);
+        }
+
+        return deque1;
     }
 
     @Override
     public SearchTreeNode getElement(Queue<SearchTreeNode> nodes) {
-        return null;
+        Deque<SearchTreeNode> deque = (Deque<SearchTreeNode>) nodes;
+        return deque.pollFirst();
     }
-
-    @Override
-    public SearchTreeNode runSearchAlgorithm(Problem problem) {
-        return GenericSearch.General_Search(problem, this);
-
-    }
-
 
     @Override
     public Queue<SearchTreeNode> generateDataStructure() {

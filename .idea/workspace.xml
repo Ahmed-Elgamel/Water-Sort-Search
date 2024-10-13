@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="MODIFIED SearchStrategy interface so that every class implementing it provides its data structure will be useful when implementing uniform cost search">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchTreeNode.java" afterDir="false" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modified printing function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DF_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DF_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728759629187</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Modified printing function">
+      <created>1728762672611</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1728762672611</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +332,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove uneccessary methods" />
     <MESSAGE value="Add logic for goal test functionality" />
     <MESSAGE value="Add logic of expand function of water sort search" />
     <MESSAGE value="Remove uneccessary method" />
@@ -349,6 +356,7 @@
     <MESSAGE value="Iterative deepening search class setup" />
     <MESSAGE value="remove comment" />
     <MESSAGE value="MODIFIED SearchStrategy interface so that every class implementing it provides its data structure will be useful when implementing uniform cost search" />
-    <option name="LAST_COMMIT_MESSAGE" value="MODIFIED SearchStrategy interface so that every class implementing it provides its data structure will be useful when implementing uniform cost search" />
+    <MESSAGE value="Modified printing function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified printing function" />
   </component>
 </project>

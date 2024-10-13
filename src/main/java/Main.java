@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
 
@@ -66,10 +68,25 @@ public class Main {
         System.out.println("Expected Output: " + testCase7Output);
         System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase7Input,"BF",false));
         System.out.println();
+
+        // Test Case 8: Complex Separation
+        String testCase8Input = "3;4;y,r,e,e;r,y,e,e;y,r,r,e";
+        String testCase8Output = "r,r,e;y,y,e;e,e,e;";
+        System.out.println("Test Case 8:");
+        System.out.println("Input: " + testCase8Input);
+        System.out.println("Expected Output: " + testCase8Output);
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input,"BF",false));
+        System.out.println();
     }
 
     public static void main(String[] args) {
         runMyTestCases();
+        int a [][] = new int [][]{{1,2,3},{1,2,3}};
+
+        int b [][] = a.clone();
+        System.out.println(a.toString());
+        System.out.println(b.toString());
+
     }
 
 
