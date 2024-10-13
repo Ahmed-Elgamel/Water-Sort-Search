@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Finish greedy search">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Finish ASTAR search">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bottle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00001" summary="First Commit">
-      <created>1728605302752</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728605302752</updated>
     </task>
     <task id="LOCAL-00002" summary="Initial structure commit">
       <created>1728605555462</created>
@@ -393,7 +387,28 @@
       <option name="project" value="LOCAL" />
       <updated>1728843206732</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="instantaiate greedy search in WaterSortSearch class">
+      <created>1728843487558</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1728843487558</updated>
+    </task>
+    <task id="LOCAL-00049" summary="more general typecasting">
+      <created>1728843742058</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1728843742058</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Finish ASTAR search">
+      <created>1728843842684</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1728843842685</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,9 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix logic when pouring colors from when bottle to the other" />
-    <MESSAGE value="Fix references errors deep cloning&#10;and fix format of the answer string. BFS is probably 80% done" />
-    <MESSAGE value="Remove printing" />
     <MESSAGE value="Add hash function to bottle class" />
     <MESSAGE value="Add hash and compare functions to state class" />
     <MESSAGE value="Expand unseen states only" />
@@ -433,6 +445,9 @@
     <MESSAGE value="Greedy search strategy structure defined" />
     <MESSAGE value="calculate heuristic value of a node if it is a greedy search strategy" />
     <MESSAGE value="Finish greedy search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish greedy search" />
+    <MESSAGE value="instantaiate greedy search in WaterSortSearch class" />
+    <MESSAGE value="more general typecasting" />
+    <MESSAGE value="Finish ASTAR search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish ASTAR search" />
   </component>
 </project>

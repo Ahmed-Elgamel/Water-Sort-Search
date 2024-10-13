@@ -1,11 +1,12 @@
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Objects;
 
 
 public class Bottle {
     Layer[] layers;
-    Integer filledIndex=-1;
-    Integer bottleCapacity;
+    private Integer filledIndex=-1;
+    private Integer bottleCapacity;
 
     public Bottle(Bottle bottle){
         layers = bottle.layers.clone();
@@ -86,12 +87,13 @@ public class Bottle {
         return ans;
     }
 
-    public Integer getFilledIndex() {
-        return filledIndex;
-    }
+    public int numberOfDifferentColors(){
+        HashSet<Layer> numberOfDiffLayers= new HashSet<>();
 
-    public void setFilledIndex(Integer filledIndex) {
-        this.filledIndex = filledIndex;
+        for(int layer =filledIndex; layer>-1; layer--){
+            numberOfDiffLayers.add(layers[layer]);
+        }
+        return Math.max(0, numberOfDiffLayers.size()-1);
     }
 
 
