@@ -42,7 +42,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         if(node == null)// then there is no answer to this environment/initial state
             return "NOSOLUTION";
 
-        Answer answer = new Answer(node);
+        Answer answer = new Answer(node, this);
         return answer.toString();
 
     }

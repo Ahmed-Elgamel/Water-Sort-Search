@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="ADD instantiation of A* search">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modified answer string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Change name of QingFunction to SearchStrategy">
-      <created>1728651323808</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728651323808</updated>
     </task>
     <task id="LOCAL-00005" summary="Modified interface name">
       <created>1728652038832</created>
@@ -409,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728845159401</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Modified answer string">
+      <created>1728846309815</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1728846309815</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Expand unseen states only" />
     <MESSAGE value="DFS class setup" />
     <MESSAGE value="Depth limited Search class setup" />
     <MESSAGE value="change input variable names to search strategy interface" />
@@ -449,6 +448,7 @@
     <MESSAGE value="Finish ASTAR search" />
     <MESSAGE value="Finished second heuristic" />
     <MESSAGE value="ADD instantiation of A* search" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD instantiation of A* search" />
+    <MESSAGE value="Modified answer string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified answer string" />
   </component>
 </project>

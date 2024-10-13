@@ -4,14 +4,14 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Answer {
-    ArrayList<Operator> plan;
     int pathCost;
     int nodesExpanded;
     SearchTreeNode node;
 
-    public Answer(SearchTreeNode node){
+    public Answer(SearchTreeNode node, Problem problem){
         this.node = node;
         pathCost = node.cost;
+        nodesExpanded = ((WaterSortSearch)problem).visitedStates.size();
     }
 
     public String toString(){
@@ -32,7 +32,7 @@ public class Answer {
        while(!answer.isEmpty())
            sb.append(answer.removeLast());
 
-       sb.append(";" + String.valueOf(node.cost));
+       sb.append(";" + String.valueOf(node.cost) + ";" + nodesExpanded);
 
        return sb.toString();
     }
