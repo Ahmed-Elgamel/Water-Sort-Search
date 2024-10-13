@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Modified search tree node to handle search strategies that use heuristics" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="calculate heuristic value of a node if it is a greedy search strategy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -370,7 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728841816220</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Greedy search strategy structure defined">
+      <created>1728842497940</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728842497940</updated>
+    </task>
+    <task id="LOCAL-00046" summary="calculate heuristic value of a node if it is a greedy search strategy">
+      <created>1728842726689</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1728842726689</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,8 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove uneccassry constructor" />
-    <MESSAGE value="Fix some logic errors" />
     <MESSAGE value="Incremented filled index whne inializing the bottles" />
     <MESSAGE value="Fix logic when pouring colors from when bottle to the other" />
     <MESSAGE value="Fix references errors deep cloning&#10;and fix format of the answer string. BFS is probably 80% done" />
@@ -410,6 +422,8 @@
     <MESSAGE value="Added two heuristics" />
     <MESSAGE value="REMOVED ARRAYLIST" />
     <MESSAGE value="Modified search tree node to handle search strategies that use heuristics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified search tree node to handle search strategies that use heuristics" />
+    <MESSAGE value="Greedy search strategy structure defined" />
+    <MESSAGE value="calculate heuristic value of a node if it is a greedy search strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate heuristic value of a node if it is a greedy search strategy" />
   </component>
 </project>

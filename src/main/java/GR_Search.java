@@ -18,17 +18,24 @@ public class GR_Search extends HeuristicSearchStrategy{
     }
     @Override
     public Queue<SearchTreeNode> addElements(Queue<SearchTreeNode> oldNodes, Queue<SearchTreeNode> newNodes) {
-        return null;
+        PriorityQueue<SearchTreeNode> priorityQueue1 = (PriorityQueue<SearchTreeNode>) oldNodes;
+
+
+        for(SearchTreeNode newNode: newNodes){
+            priorityQueue1.add(newNode);
+        }
+        return priorityQueue1;
     }
 
     @Override
     public SearchTreeNode getElement(Queue<SearchTreeNode> elements) {
-        return null;
+        PriorityQueue<SearchTreeNode> priorityQueue = (PriorityQueue<SearchTreeNode>) elements;
+        return priorityQueue.poll();
     }
 
     @Override
     public SearchTreeNode runSearchAlgorithm(Problem problem) {
-        return null;
+        return GenericSearch.General_Search(problem, this);
     }
 
     @Override
