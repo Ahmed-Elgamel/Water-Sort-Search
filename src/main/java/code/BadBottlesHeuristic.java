@@ -1,3 +1,5 @@
+package code;
+
 public class BadBottlesHeuristic extends Heuristic{
     /**
      * Heursitic Explanation:

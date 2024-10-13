@@ -1,4 +1,5 @@
-import java.util.Deque;
+package code;
+
 import java.util.Queue;
 
 public interface SearchStrategy {

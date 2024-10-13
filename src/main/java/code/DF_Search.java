@@ -1,3 +1,5 @@
+package code;
+
 import java.util.*;
 
 public class DF_Search implements SearchStrategy {

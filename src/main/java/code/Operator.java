@@ -1,3 +1,5 @@
+package code;
+
 public class Operator {
     /*
     This class represents the operator  that we will apply on the two bottles

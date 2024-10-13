@@ -1,3 +1,5 @@
+package code;
+
 public class BadColorsHeuristic extends Heuristic{
 
 

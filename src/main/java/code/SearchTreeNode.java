@@ -1,3 +1,5 @@
+package code;
+
 public class SearchTreeNode {
     State state;
     SearchTreeNode parent;
@@ -53,7 +55,7 @@ public class SearchTreeNode {
     }
 
     public String toString(){
-        StringBuilder s =new StringBuilder("State: " + state + " Operator: "+operator+ " Depth: "+depth+" Cost: "+cost);
+        StringBuilder s =new StringBuilder("code.State: " + state + " code.Operator: "+operator+ " Depth: "+depth+" Cost: "+cost);
         return s.toString();
 
     }

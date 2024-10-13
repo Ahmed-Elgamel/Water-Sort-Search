@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+package code;
+
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class Answer {
     int pathCost;
