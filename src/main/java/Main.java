@@ -84,7 +84,7 @@ public class Main {
         System.out.println("Test Case 9:");
         System.out.println("Input: " + testCase8Input);
         System.out.println("Expected Output: " + testCase8Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase9Input, "UC", false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase9Input, "AS2", false));
         System.out.println();
 
 

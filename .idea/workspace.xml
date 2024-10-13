@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Finish ASTAR search">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Finished second heuristic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial structure commit">
-      <created>1728605555462</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1728605555462</updated>
     </task>
     <task id="LOCAL-00003" summary="Add General_Search Functions">
       <created>1728649683666</created>
@@ -408,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728843842685</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Finished second heuristic">
+      <created>1728844826442</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1728844826442</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add hash function to bottle class" />
     <MESSAGE value="Add hash and compare functions to state class" />
     <MESSAGE value="Expand unseen states only" />
     <MESSAGE value="DFS class setup" />
@@ -448,6 +448,7 @@
     <MESSAGE value="instantaiate greedy search in WaterSortSearch class" />
     <MESSAGE value="more general typecasting" />
     <MESSAGE value="Finish ASTAR search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish ASTAR search" />
+    <MESSAGE value="Finished second heuristic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished second heuristic" />
   </component>
 </project>
