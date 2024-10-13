@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Test Case 1:");
         System.out.println("Input: " + testCase1Input);
         System.out.println("Expected Output: " + testCase1Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input, "BF", false));
         System.out.println();
 
         // Test Case 2: Already Separated
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Test Case 2:");
         System.out.println("Input: " + testCase2Input);
         System.out.println("Expected Output: " + testCase2Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase2Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase2Input, "BF", false));
         System.out.println();
 
         // Test Case 3: Impossible Separation
@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Test Case 3:");
         System.out.println("Input: " + testCase3Input);
         System.out.println("Expected Output: " + testCase3Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase3Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase3Input, "BF", false));
         System.out.println();
 
         // Test Case 4: Multiple Empty Bottles
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Test Case 4:");
         System.out.println("Input: " + testCase4Input);
         System.out.println("Expected Output: " + testCase4Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase4Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase4Input, "BF", false));
         System.out.println();
 
         // Test Case 5: Larger Capacity
@@ -48,7 +48,7 @@ public class Main {
         System.out.println("Test Case 5:");
         System.out.println("Input: " + testCase5Input);
         System.out.println("Expected Output: " + testCase5Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase5Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase5Input, "BF", false));
         System.out.println();
 
         // Test Case 6: Complex Separation unsolvalbel i think
@@ -57,7 +57,7 @@ public class Main {
         System.out.println("Test Case 6:");
         System.out.println("Input: " + testCase6Input);
         System.out.println("Expected Output: " + testCase6Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase6Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase6Input, "BF", false));
         System.out.println();
 
         // Test Case 6: Complex Separation
@@ -66,27 +66,36 @@ public class Main {
         System.out.println("Test Case 7:");
         System.out.println("Input: " + testCase7Input);
         System.out.println("Expected Output: " + testCase7Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase7Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase7Input, "BF", false));
         System.out.println();
 
         // Test Case 8: Complex Separation
-        String testCase8Input = "3;4;y,r,e,e;r,y,e,e;y,r,r,e";
+        String testCase8Input = "4;4;y,r,e,e;y,r,e,e;o,r,e,e;g,r,e,e";
         String testCase8Output = "r,r,e;y,y,e;e,e,e;";
         System.out.println("Test Case 8:");
         System.out.println("Input: " + testCase8Input);
         System.out.println("Expected Output: " + testCase8Output);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input,"BF",false));
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input, "DF", false));
         System.out.println();
+
+
+        // Test Case 8: Complex Separation
+        String testCase9Input = "5;4;" +"b,y,r,b;" + "b,y,r,r;" +"y,r,b,y;" + "e,e,e,e;" + "e,e,e,e";
+        System.out.println("Test Case 8:");
+        System.out.println("Input: " + testCase8Input);
+        System.out.println("Expected Output: " + testCase8Output);
+        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase9Input, "BF", false));
+        System.out.println();
+
+
+
+
+        // Test Case 8: Complex Separation
+
     }
 
     public static void main(String[] args) {
         runMyTestCases();
-        int a [][] = new int [][]{{1,2,3},{1,2,3}};
-
-        int b [][] = a.clone();
-        System.out.println(a.toString());
-        System.out.println(b.toString());
-
     }
 
 
