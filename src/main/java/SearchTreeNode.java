@@ -34,6 +34,9 @@ public class SearchTreeNode {
         this.depth = parent.depth+1;
         this.cost = parent.cost + operator.cost;
 
+        if(searchStrategy instanceof GR_Search) // heuristic value calculation
+            this.heuristic = ((GR_Search)searchStrategy).selectedHeuristic.estimateCostToGoal(this.state);
+
     }
 
     /* creates the ROOT search tree node from the initial state given
