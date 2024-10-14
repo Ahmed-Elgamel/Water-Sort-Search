@@ -1,5 +1,5 @@
 package code;
 
-public abstract class Heuristic {
+public interface Heuristic {
     abstract int estimateCostToGoal(State state);
 }

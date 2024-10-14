@@ -1,6 +1,6 @@
 package code;
 
-public class BadBottlesHeuristic extends Heuristic{
+public class BadBottlesHeuristic implements Heuristic{
     /**
      * Heursitic Explanation:
      * This heuristic calculates the number of bottles which have more than 1 color in them,
@@ -8,7 +8,7 @@ public class BadBottlesHeuristic extends Heuristic{
     * */
 
     @Override
-    int estimateCostToGoal(State state) {
+    public int estimateCostToGoal(State state) {
         int badBottles = 0;
         Bottle [] bottles = state.getBottles();
         for(Bottle bottle: bottles){
