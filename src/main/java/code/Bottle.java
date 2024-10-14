@@ -23,12 +23,12 @@ public class Bottle {
 
         for(int i=0 ; i<bottleCapacity ; i++){
             switch(colors[i]) {
-                case "r": this.layers[i] = Layer.Red; filledIndex++; break;
-                case "g": this.layers[i] = Layer.Green; filledIndex++; break;
-                case "b": this.layers[i] = Layer.Blue; filledIndex++; break;
-                case "y": this.layers[i] = Layer.Yellow; filledIndex++; break;
-                case "o": this.layers[i] = Layer.Orange; filledIndex++; break;
-                default: this.layers[i] = Layer.Empty;
+                case "r": this.layers[ (bottleCapacity-1) - i ] = Layer.Red; filledIndex++; break;
+                case "g": this.layers[ (bottleCapacity-1) - i ] = Layer.Green; filledIndex++; break;
+                case "b": this.layers[ (bottleCapacity-1) - i ] = Layer.Blue; filledIndex++; break;
+                case "y": this.layers[ (bottleCapacity-1) - i ] = Layer.Yellow; filledIndex++; break;
+                case "o": this.layers[ (bottleCapacity-1) - i ] = Layer.Orange; filledIndex++; break;
+                default:  this.layers[ (bottleCapacity-1) - i ] = Layer.Empty;
 
             }
         }
