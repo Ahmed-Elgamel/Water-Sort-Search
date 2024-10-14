@@ -8,10 +8,11 @@ public class Main {
     public static void runMyTestCases() {
         // Test Case 1: Simple Separation
         String testCase1Input = "3;3;r,g,b;e,e,e;e,e,e";
-        System.out.println("Test Case 1:");
-        System.out.println("Input: " + testCase1Input);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input, "ID", true));
-        System.out.println();
+//        System.out.println("Test Case 1:");
+//        System.out.println("Input: " + testCase1Input);
+//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase1Input, "ID", true));
+//        System.out.println();
+
 
 //        // Test Case 2: Already Separated
 //        String testCase2Input = "3;3;r,e,e;g,e,e;b,e,e";
@@ -57,20 +58,22 @@ public class Main {
 //
         // Test Case 8: Complex Separation
         String testCase8Input = "4;4;y,r,e,e;y,r,e,e;o,r,e,e;g,r,e,e";
-        System.out.println("Test Case 8:");
-        System.out.println("Input: " + testCase8Input);
-        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input, "ID", true));
-        System.out.println();
+//        System.out.println("Test Case 8:");
+//        System.out.println("Input: " + testCase8Input);
+//        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase8Input, "ID", true));
+//        System.out.println();
 
 //
 //        // Test Case 9: Complex Separation
-//        String testCase9Input = "5;4;" +"b,y,r,b;" + "b,y,r,r;" +"y,r,b,y;" + "e,e,e,e;" + "e,e,e,e";
+        String testCase9Input = "5;4;" +"b,y,r,b;" + "b,y,r,r;" +"y,r,b,y;" + "e,e,e,e;" + "e,e,e,e";
 //        System.out.println("Test Case 9:");
 //        System.out.println("Input: " + testCase8Input);
 //        System.out.println("Our algorithm answer: " + WaterSortSearch.solve(testCase9Input, "AS2", true));
 //        System.out.println();
 //
 
+        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance(testCase9Input, "ID", false));
+        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance(testCase9Input, "DF", false));
 
 
 

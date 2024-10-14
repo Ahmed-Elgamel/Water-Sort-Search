@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Fix color addition index to bottles">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="useless stuff">
       <change afterPath="$PROJECT_DIR$/src/test/java/PublicTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/GenericSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,27 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00009" summary="remove uneccessary instance variable">
-      <created>1728654018415</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1728654018415</updated>
-    </task>
-    <task id="LOCAL-00010" summary="remove uneccessary methods">
-      <created>1728654761763</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1728654761763</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Add logic for goal test functionality">
-      <created>1728655316635</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1728655316635</updated>
     </task>
     <task id="LOCAL-00012" summary="Add logic of expand function of water sort search">
       <created>1728657871821</created>
@@ -456,7 +429,28 @@
       <option name="project" value="LOCAL" />
       <updated>1728906019848</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Added visualize functions">
+      <created>1728908374082</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1728908374082</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Change Heuristic to interface instead of abstract class">
+      <created>1728911848025</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1728911848025</updated>
+    </task>
+    <task id="LOCAL-00060" summary="useless stuff">
+      <created>1728920737151</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1728920737151</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,9 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Iterative deepening search class setup" />
-    <MESSAGE value="remove comment" />
-    <MESSAGE value="MODIFIED SearchStrategy interface so that every class implementing it provides its data structure will be useful when implementing uniform cost search" />
     <MESSAGE value="Modified printing function" />
     <MESSAGE value="DFS class complete" />
     <MESSAGE value="Add instantiation of DFS and IDS search strategies" />
@@ -496,6 +487,9 @@
     <MESSAGE value="Remove comments" />
     <MESSAGE value="Added Test File and refactor all files inside pacage code" />
     <MESSAGE value="Fix color addition index to bottles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix color addition index to bottles" />
+    <MESSAGE value="Added visualize functions" />
+    <MESSAGE value="Change Heuristic to interface instead of abstract class" />
+    <MESSAGE value="useless stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="useless stuff" />
   </component>
 </project>
