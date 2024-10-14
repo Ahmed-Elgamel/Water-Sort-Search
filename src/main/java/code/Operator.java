@@ -28,7 +28,7 @@ public class Operator {
     }
 
     public String toString(){
-        return bottle2Idx+"-->"+bottle1Idx;
+        return "Operator: pour("+bottle2Idx+"->"+bottle1Idx +")";
     }
 
 }

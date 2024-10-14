@@ -3,6 +3,7 @@ package code;
 import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     String initialState;
@@ -16,24 +17,40 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         this.visualize = visualize;
         visitedStates = new HashSet<>();
 
-        if(strategy.equals("BF"))
-            this.searchStrategy = new BF_Search();
-        else if(strategy.equals("DF"))
-            this.searchStrategy = new DF_Search();
-        else if(strategy.equals("DL"))
-            this.searchStrategy = new DL_Search(1);
-        else if(strategy.equals("ID"))
-            this.searchStrategy = new ID_Search();
-        else if (strategy.equals("UC"))
-            this.searchStrategy = new UC_Search();
-        else if (strategy.startsWith("GR")) {
-            int heuristicIndex = Integer.parseInt(strategy.substring(2));
-            this.searchStrategy = new GR_Search(heuristicIndex);
+        switch (strategy) {
+            case "BF":
+                this.searchStrategy = new BF_Search();
+                break;
+
+            case "DF":
+                this.searchStrategy = new DF_Search();
+                break;
+
+            case "DL":
+                this.searchStrategy = new DL_Search(1);
+                break;
+
+            case "ID":
+                this.searchStrategy = new ID_Search();
+                break;
+
+            case "UC":
+                this.searchStrategy = new UC_Search();
+                break;
+
+            default:
+                if (strategy.startsWith("GR")) {
+                    int heuristicIndex = Integer.parseInt(strategy.substring(2));
+                    this.searchStrategy = new GR_Search(heuristicIndex);
+                } else if (strategy.startsWith("AS")) {
+                    int heuristicIndex = Integer.parseInt(strategy.substring(2));
+                    this.searchStrategy = new AS_Search(heuristicIndex);
+                } else {
+                    throw new IllegalArgumentException("Unknown search strategy: " + strategy);
+                }
+                break;
         }
-        else if(strategy.startsWith("AS")){
-            int heuristicIndex = Integer.parseInt(strategy.substring(2));
-            this.searchStrategy = new AS_Search(heuristicIndex);
-        }
+
 
 
     }
@@ -89,6 +106,8 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
          */
         Bottle []bottles = node.state.getBottles();
         Deque<SearchTreeNode> expandedNodes = new LinkedList<>();
+        if(visualize)
+            System.out.println("Expanding Node: "+node);
 
         for(int i=0 ; i<bottles.length ; i++){
             Bottle bottle2 = bottles[i];
@@ -117,6 +136,19 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
         return expandedNodes;
 
 
+    }
+
+
+
+
+    public void visualize(String printString, Queue<SearchTreeNode>nodes){
+        if(!visualize) return;
+
+        StringBuilder sb =new StringBuilder();
+        for(SearchTreeNode searchTreeNode: nodes){
+            sb.append(searchTreeNode.toString());
+        }
+        System.out.print(printString+ "\n"+ sb.toString());
     }
 
 

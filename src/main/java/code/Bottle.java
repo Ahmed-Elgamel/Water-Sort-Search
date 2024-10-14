@@ -102,7 +102,7 @@ public class Bottle {
     public String toString(){
         StringBuilder sb =new StringBuilder();
         for(int i=0;i<bottleCapacity;i++)
-            sb.append(layers[i]+" ");
+            sb.append(layers[i]+", ");
 
         return sb.toString();
     }

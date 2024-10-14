@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Added Test File and refactor all files inside pacage code">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Fix color addition index to bottles">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PublicTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/GenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +112,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00008" summary="remove uneccessary functions">
-      <created>1728653944265</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1728653944265</updated>
     </task>
     <task id="LOCAL-00009" summary="remove uneccessary instance variable">
       <created>1728654018415</created>
@@ -449,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728850574449</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Fix color addition index to bottles">
+      <created>1728906019848</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1728906019848</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change structure when running the search algorithm&#10;to be inside the search strategy class instead of inside the problem class" />
     <MESSAGE value="Iterative deepening search class setup" />
     <MESSAGE value="remove comment" />
     <MESSAGE value="MODIFIED SearchStrategy interface so that every class implementing it provides its data structure will be useful when implementing uniform cost search" />
@@ -489,17 +495,7 @@
     <MESSAGE value="Include number of expanded nodes in answer string" />
     <MESSAGE value="Remove comments" />
     <MESSAGE value="Added Test File and refactor all files inside pacage code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test File and refactor all files inside pacage code" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/code/GenericSearch.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fix color addition index to bottles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix color addition index to bottles" />
   </component>
 </project>

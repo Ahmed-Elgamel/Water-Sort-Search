@@ -37,7 +37,7 @@ public class State {
     }
 
     public String toString(){
-        return Arrays.deepToString(bottles);
+        return "State: " + Arrays.deepToString(bottles);
     }
 
 
