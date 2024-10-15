@@ -4,6 +4,7 @@ import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.concurrent.*;
 
 public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
     String initialState;
@@ -27,7 +28,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
                 break;
 
             case "DL":
-                this.searchStrategy = new DL_Search(1);
+                this.searchStrategy = new DL_Search(8);
                 break;
 
             case "ID":
@@ -54,6 +55,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
 
 
     }
+
 
     public String runSearchAlgorithm(){
         SearchTreeNode node = searchStrategy.runSearchAlgorithm(this);

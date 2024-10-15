@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Added class to track resources">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Fix Hash function of state">
       <change afterPath="$PROJECT_DIR$/src/test/java/PublicTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/GenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/BadBottlesHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/BadBottlesHeuristic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ResourceUsageTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ResourceUsageTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" afterDir="false" />
@@ -60,7 +58,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PublicTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.Main" />
       <module name="Water-Sort-Search" />
@@ -99,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PublicTests" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -112,13 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Remove uneccessary method">
-      <created>1728657913201</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1728657913201</updated>
     </task>
     <task id="LOCAL-00014" summary="CHANGE data structure to dequeue instead of queue">
       <created>1728658290200</created>
@@ -456,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728927294185</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Fix Hash function of state">
+      <created>1728996251642</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1728996251642</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DFS class complete" />
     <MESSAGE value="Add instantiation of DFS and IDS search strategies" />
     <MESSAGE value="IDS search strategy reset visited states with each new depth limit" />
     <MESSAGE value="proper cost calculation is implemented" />
@@ -496,6 +493,7 @@
     <MESSAGE value="Change Heuristic to interface instead of abstract class" />
     <MESSAGE value="useless stuff" />
     <MESSAGE value="Added class to track resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added class to track resources" />
+    <MESSAGE value="Fix Hash function of state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Hash function of state" />
   </component>
 </project>

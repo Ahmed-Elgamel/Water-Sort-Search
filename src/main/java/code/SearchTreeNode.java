@@ -35,10 +35,12 @@ public class SearchTreeNode {
         this.operator = operator;
         this.depth = parent.depth+1;
         this.cost = parent.cost + operator.cost;
-        state.cost = cost;
+        state.cost = this.cost;
 
         if(searchStrategy instanceof HeuristicSearchStrategy) // calculate heuristic value if search strategy is one that uses heuristics
             this.heuristic = ((HeuristicSearchStrategy)searchStrategy).selectedHeuristic.estimateCostToGoal(this.state);
+
+
 
     }
 

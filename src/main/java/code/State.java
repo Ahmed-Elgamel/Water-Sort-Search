@@ -82,21 +82,14 @@ public class State {
 //
 //    }
 
-//    @Override
-//    public int hashCode() {
-//        return Arrays.stream(bottles)
-//                .mapToInt(Bottle::hashCode)
-//                .reduce(0, (result, hash) -> result ^ (31 * hash)); // XOR + prime multiplier
-//    }
-
     @Override
     public int hashCode() {
         int hash = 7; // Start with a non-zero constant
-        hash = 31 * hash + cost; // Include cost in the hash
 
         // Combine the hash codes of the bottles
         for (Bottle bottle : bottles) {
-            hash = 31 * hash + (bottle != null ? bottle.hashCode() : 0); // Handle null bottles if necessary
+            // Use 31 (a prime number) to generate unique hash codes
+            hash = 31 * hash + (bottle != null ? bottle.hashCode() : 0); // Handle null bottles safely
         }
 
         return hash;

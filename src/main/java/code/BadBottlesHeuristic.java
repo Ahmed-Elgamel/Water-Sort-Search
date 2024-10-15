@@ -12,7 +12,7 @@ public class BadBottlesHeuristic implements Heuristic{
         int badBottles = 0;
         Bottle [] bottles = state.getBottles();
         for(Bottle bottle: bottles){
-            badBottles+= bottle.isBottleSameColor()? 1 : 0;
+            badBottles+= bottle.isBottleSameColor()? 0 : 1;
         }
 
         return badBottles;
