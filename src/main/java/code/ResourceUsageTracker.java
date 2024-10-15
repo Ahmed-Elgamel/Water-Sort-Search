@@ -38,6 +38,7 @@ public class ResourceUsageTracker {
         System.out.println("Wall-clock time used (ms): " + (wallClockTimeUsed / 1_000_000) + " ms");
         System.out.println("CPU Utilization: " + String.format("%.2f", cpuUtilization) + " %");
         System.out.println("Memory used (MB): " + (usedMemory / (1024 * 1024)) + " MB");
+        System.out.println("------------------------------------------------------------------------");
 
         return answer;
     }

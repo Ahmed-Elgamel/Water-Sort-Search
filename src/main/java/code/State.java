@@ -1,6 +1,8 @@
 package code;
 
 import java.util.Arrays;
+import java.util.Objects;
+import java.util.Stack;
 
 public class State {
     /*
@@ -8,12 +10,14 @@ public class State {
     which is how the bottles are filled
      */
     Bottle [] bottles;
-
+    int cost=0;
 
     public State(Bottle[] bottles){
         this.bottles = bottles;
 
+
     }
+
 
     public void changeState(Operator operator){
         operator.applyOperator();
@@ -37,7 +41,28 @@ public class State {
     }
 
     public String toString(){
-        return "State: " + Arrays.deepToString(bottles);
+//        return "State: " + Arrays.deepToString(bottles);
+        StringBuilder sb =new StringBuilder();
+        Stack<String >stack =new Stack<>();
+        for(int layer = 0; layer<bottles[0].layers.length;layer++){
+
+            for(int bottleNum=0;bottleNum<bottles.length; bottleNum++){
+                sb.append("[ "+ bottles[bottleNum].layers[layer]+" ]");
+            }
+            sb.append("\n");
+            stack.add(sb.toString());
+            sb.setLength(0);
+        }
+        sb.setLength(0);
+//        System.out.println(stack);
+
+        while(!stack.isEmpty()){
+            sb.append(stack.pop());
+        }
+
+
+        return sb.toString();
+
     }
 
 
@@ -51,8 +76,29 @@ public class State {
                 && this.bottles.length == that.bottles.length;
     }
 
+//    @Override
+//    public int hashCode() {
+//        return Arrays.stream(bottles).mapToInt(Bottle::hashCode).sum();  // Sum hash codes of all bottles
+//
+//    }
+
+//    @Override
+//    public int hashCode() {
+//        return Arrays.stream(bottles)
+//                .mapToInt(Bottle::hashCode)
+//                .reduce(0, (result, hash) -> result ^ (31 * hash)); // XOR + prime multiplier
+//    }
+
     @Override
     public int hashCode() {
-        return Arrays.stream(bottles).mapToInt(Bottle::hashCode).sum();  // Sum hash codes of all bottles
+        int hash = 7; // Start with a non-zero constant
+        hash = 31 * hash + cost; // Include cost in the hash
+
+        // Combine the hash codes of the bottles
+        for (Bottle bottle : bottles) {
+            hash = 31 * hash + (bottle != null ? bottle.hashCode() : 0); // Handle null bottles if necessary
+        }
+
+        return hash;
     }
 }

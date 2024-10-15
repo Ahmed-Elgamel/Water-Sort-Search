@@ -18,7 +18,7 @@ public abstract class GenericSearch {
             if(foundAnswer) return node;
 
             Deque<SearchTreeNode> newNodes = problem.expand(node); //expand this node to get some new nodes
-            ((WaterSortSearch)problem).visualize("NEWLY ADDED NODES: ", newNodes);
+//            ((WaterSortSearch)problem).visualize("NEWLY ADDED NODES: ", newNodes);
             nodes = searchStrategy.addElements(nodes, newNodes); // add the new nodes to the old nodes
             ((WaterSortSearch)problem).visualize("ALL NODES AVAILABLE FOR EXPANSION: ", newNodes);
 

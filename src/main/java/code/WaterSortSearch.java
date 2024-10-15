@@ -149,6 +149,7 @@ public class WaterSortSearch extends GenericSearch implements WaterSortProblem {
             sb.append(searchTreeNode.toString());
         }
         System.out.print(printString+ "\n"+ sb.toString());
+        System.out.println("--------------------------------------");
     }
 
 
