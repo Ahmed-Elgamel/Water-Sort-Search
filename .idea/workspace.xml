@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="Fix Hash function of state">
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="fix first heuristic">
       <change afterPath="$PROJECT_DIR$/src/test/java/PublicTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/BadBottlesHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/BadBottlesHeuristic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/SearchTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/WaterSortSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PublicTests">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.Main" />
       <module name="Water-Sort-Search" />
@@ -97,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PublicTests" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PublicTests" />
       </list>
     </recent_temporary>
   </component>
@@ -110,13 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00014" summary="CHANGE data structure to dequeue instead of queue">
-      <created>1728658290200</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1728658290200</updated>
     </task>
     <task id="LOCAL-00015" summary="Add functionality to the BF_Search search strategy">
       <created>1728658446734</created>
@@ -454,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728996251642</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="fix first heuristic">
+      <created>1729034772646</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1729034772646</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add instantiation of DFS and IDS search strategies" />
     <MESSAGE value="IDS search strategy reset visited states with each new depth limit" />
     <MESSAGE value="proper cost calculation is implemented" />
     <MESSAGE value="UNIFORM COST SEARCH ADDED" />
@@ -494,6 +489,7 @@
     <MESSAGE value="useless stuff" />
     <MESSAGE value="Added class to track resources" />
     <MESSAGE value="Fix Hash function of state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Hash function of state" />
+    <MESSAGE value="fix first heuristic" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix first heuristic" />
   </component>
 </project>

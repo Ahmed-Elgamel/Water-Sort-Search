@@ -111,7 +111,7 @@ public class Main {
         StringBuilder testCase9Input = new StringBuilder("5;4;" +"b,y,r,b;" + "b,y,r,r;" +"y,r,b,y;" + "e,e,e,e;" + "e,e,e,e");
         System.out.println("Test Case 9:");
         System.out.println("Input: " + testCase9Input);
-        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "DF", false) );
+//        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "DF", false) );
 //        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "BF", false) );
 //
 //        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "ID", false) );
@@ -121,7 +121,7 @@ public class Main {
 //        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "GR1", false) );
 //
 //        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "GR2", false) );
-//        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "AS1", false) );
+        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "AS1", false) );
 //        System.out.println("Our algorithm answer: " + ResourceUsageTracker.analyzePerformance( testCase9Input.toString(), "AS2", false) );
 
         System.out.println();
