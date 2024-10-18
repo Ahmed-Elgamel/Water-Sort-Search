@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="fix first heuristic">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PublicTests.java" afterDir="false" />
+    <list default="true" id="dc62e423-2727-45d5-8a81-a395cc14da05" name="Changes" comment="final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PublicTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.Main" />
       <module name="Water-Sort-Search" />
@@ -93,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PublicTests" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -106,20 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728605171239</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add functionality to the BF_Search search strategy">
-      <created>1728658446734</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1728658446734</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Modify GenericSearch to return SerachTreeNode">
-      <created>1728658955793</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1728658955793</updated>
     </task>
     <task id="LOCAL-00017" summary="Add structure of returning the answer">
       <created>1728659385268</created>
@@ -450,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729034772646</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="final commit">
+      <created>1729093116316</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1729093116316</updated>
+    </task>
+    <task id="LOCAL-00065" summary="final commit">
+      <created>1729093135532</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1729093135532</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IDS search strategy reset visited states with each new depth limit" />
     <MESSAGE value="proper cost calculation is implemented" />
     <MESSAGE value="UNIFORM COST SEARCH ADDED" />
     <MESSAGE value="Added two heuristics" />
@@ -490,6 +487,7 @@
     <MESSAGE value="Added class to track resources" />
     <MESSAGE value="Fix Hash function of state" />
     <MESSAGE value="fix first heuristic" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix first heuristic" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
 </project>
